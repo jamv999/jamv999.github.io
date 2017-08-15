@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    font-family: Arial, Verdana;
+}
+
+.hero-image {
+    height: 45vh;
+    background: #ECECEC url(../images/jamv_fondo_foto.jpg) no-repeat right;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 2em;
+    color: #DFDFDF;
+    padding-bottom: 5%;
+}
+
+.hero-image h1 {
+    font-size: 3em;
+    margin: 0px;
+    text-shadow: 0px 0px 4px #000;
+}
+
+.hero-image p {
+    font-size: 1.5em;
+    text-shadow: 0px 0px 2px #000;
+}
+
+.hero-image small {
+    font-size: 15px;
+    color: black;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Verdana;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+nav ul {
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+    
+}
+
+nav ul li span {
+    border-bottom: white 4px solid;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: white 4px solid;
+}
+
+.article {
+    margin: auto;
+    max-width: 900px;
+}
